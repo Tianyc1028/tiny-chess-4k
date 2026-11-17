@@ -7,7 +7,8 @@
 A 4 KB chess engine in a single Python file. 0x88 board, negamax with
 alpha-beta and quiescence search, transposition table, MVV-LVA move ordering
 and iterative deepening over a fixed 120,000-node budget per move, so play is
-fully deterministic. Evaluates with material plus Michniewski middlegame
+fully deterministic (the same position always gets the same move).
+Evaluates with material plus Michniewski middlegame
 piece-square tables and a bishop-pair bonus. Local practice trials: Elo 1364
 (above the sunfish baseline of about 1325).
 
